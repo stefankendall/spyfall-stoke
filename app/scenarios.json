@@ -1,0 +1,172 @@
+[
+  {
+    "location": "Airplane",
+    "roles": [
+      "attendant"
+    ]
+  },
+  {
+    "location": "Amusement Park",
+    "roles": [
+      "guest"
+    ]
+  },
+  {
+    "location": "Bank",
+    "roles": [
+      "teller"
+    ]
+  },
+  {
+    "location": "Beach",
+    "roles": [
+      "beachgoer"
+    ]
+  },
+  {
+    "location": "Carnival",
+    "roles": [
+      "guest"
+    ]
+  },
+  {
+    "location": "Casino",
+    "roles": [
+      "gambler"
+    ]
+  },
+  {
+    "location": "Corporate Party",
+    "roles": [
+      "director of product management"
+    ]
+  },
+  {
+    "location": "Crusader Army",
+    "roles": [
+      "soldier"
+    ]
+  },
+  {
+    "location": "Day Spa",
+    "roles": [
+      "guest"
+    ]
+  },
+  {
+    "location": "Embassy",
+    "roles": [
+      "ambassador"
+    ]
+  },
+  {
+    "location": "Hospital",
+    "roles": [
+      "nurse"
+    ]
+  },
+  {
+    "location": "Hotel",
+    "roles": [
+      "guest"
+    ]
+  },
+  {
+    "location": "Mechanic (Car)",
+    "roles": [
+      "visitor"
+    ]
+  },
+  {
+    "location": "Military Base",
+    "roles": [
+      "soldier"
+    ]
+  },
+  {
+    "location": "Movie Theater",
+    "roles": [
+      "ticket attendant"
+    ]
+  },
+  {
+    "location": "Movie Production Studio",
+    "roles": [
+      "camera person"
+    ]
+  },
+  {
+    "location": "Night Club",
+    "roles": [
+      "visitor"
+    ]
+  },
+  {
+    "location": "Ocean Liner",
+    "roles": [
+      "visitor"
+    ]
+  },
+  {
+    "location": "Passenger Train",
+    "roles": [
+      "commuter"
+    ]
+  },
+  {
+    "location": "Pirate Ship",
+    "roles": [
+      "pirate"
+    ]
+  },
+  {
+    "location": "Police Station,",
+    "roles": [
+      "cop"
+    ]
+  },
+  {
+    "location": "Restaurant",
+    "roles": [
+      "guest"
+    ]
+  },
+  {
+    "location": "School",
+    "roles": [
+      "student"
+    ]
+  },
+  {
+    "location": "Space Station",
+    "roles": [
+      "astronaut"
+    ]
+  },
+  {
+    "location": "Submarine",
+    "roles": [
+      "crew"
+    ]
+  },
+  {
+    "location": "Supermarket",
+    "roles": [
+      "visitor"
+    ]
+  },
+  {
+    "location": "University",
+    "roles": [
+      "professor",
+      "student"
+    ]
+  },
+  {
+    "location": "Zoo",
+    "roles": [
+      "visitor",
+      "zookeeper"
+    ]
+  }
+]

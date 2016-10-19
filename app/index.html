@@ -35,6 +35,10 @@
     <div ng-show="$ctrl.selectedRole" class="m-t-1">
       <h1 class="p-a-2">{{$ctrl.selectedRole.role}}</h1>
       <h2 ng-show="$ctrl.selectedRole.location" class="p-a-2">Location: {{$ctrl.selectedRole.location}}</h2>
+      <h3>List of potential locations:</h3>
+      <ul>
+        <li ng-repeat="location in $ctrl.locations">{{location}}</li>
+      </ul>
     </div>
   </div>
 
@@ -64,10 +68,11 @@
 
 <!-- build:js scripts/vendor.js -->
 <!-- bower:js -->
+<script src="/bower_components/angular/angular.js"></script>
 <script src="/bower_components/jquery/dist/jquery.js"></script>
 <script src="/bower_components/tether/dist/js/tether.js"></script>
 <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-<script src="/bower_components/angular/angular.js"></script>
+<script src="/bower_components/lodash/lodash.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
 
