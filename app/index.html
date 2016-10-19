@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>spyfall</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body ng-app="app">
+<div class="container">
+  <div class="jumbotron p-a-2">
+    <h1>Spyfall Stoke</h1>
+    <p class="lead">A game is afoot!</p>
+  </div>
+
+  <div ng-controller="RoleController as $ctrl" class="m-b-1" ng-show="$ctrl.data">
+    <h1>There are {{$ctrl.data.players}} players</h1>
+    <h2>I am...</h2>
+    <p ng-repeat="role in $ctrl.data.roles" ng-show="!$ctrl.selectedRole">
+      <button class="btn btn-primary btn-lg" ng-click="$ctrl.selectedRole = role">Player {{$index + 1}}</button>
+    </p>
+    <div ng-show="$ctrl.selectedRole" class="m-t-1">
+      <h1 class="p-a-2">{{$ctrl.selectedRole.role}}</h1>
+      <h2 ng-show="$ctrl.selectedRole.location" class="p-a-2">Location: {{$ctrl.selectedRole.location}}</h2>
+    </div>
+  </div>
+
+  <div class="row marketing">
+    <div class="col-lg-6">
+      <h4>Rules</h4>
+      <ol>
+        <li>Everyone is at the same location with a different job...</li>
+        <li>Except for the spy.</li>
+        <li>The players win when someone calls a vote, it unanimously succeeds, and they've discovered the spy.</li>
+        <li>The spy wins at any time when they declare they are the spy and guess the correct location.</li>
+        <li>The spy ALSO wins if time runs out.</li>
+        <li>Each turn of the game, you may ask any player one question with one answer of any kind. They answer in
+          whatever way they wish and then ask the next question.
+        </li>
+        <li>You may not ask a question of the person who just asked you a question.</li>
+      </ol>
+      <h4>Example Round - Players Alice, Bob, Sue</h4>
+      <p>Alice asks bob "What kind of clothes did you wear to this event?"</p>
+      <p>Bob thinks the question is a bit generic, so he responds with little information.
+        "My usual work clothes. Sue, are you here as a guest or a patron?"</p>
+      <p>Sue says "Guest."</p>
+      <p>Alice and Bob call a vote naming Sue the spy, and they win. Because they were on a nuclear submarine.</p>
+    </div>
+  </div>
+</div>
+
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/tether/dist/js/tether.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="/bower_components/angular/angular.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js scripts/main.js -->
+<script src="scripts/_app.js"></script>
+<script src="scripts/controllers/role_controller.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>
