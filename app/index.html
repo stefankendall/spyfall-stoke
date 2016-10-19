@@ -20,21 +20,39 @@
   <!-- endbuild -->
 </head>
 <body ng-app="app">
-<div class="container">
+<div class="container" ng-controller="RoleController as $ctrl" >
   <div class="jumbotron p-a-2">
     <h1>Spyfall Stoke</h1>
-    <p class="lead">A game is afoot!</p>
+    <fieldset ng-show="!$ctrl.started && $ctrl.scenarios">
+      <legend>Setup</legend>
+      <div class="row">
+        <div class="col-md-6">
+          <label for="numberOfPlayers">Number of Players</label>
+          <div class="input-group">
+            <input type="number" class="form-control" id="numberOfPlayers" ng-model="$ctrl.numberOfPlayers">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="seed">Game Seed</label>
+          <div class="input-group">
+            <input type="number" class="form-control" id="seed" ng-model="$ctrl.seed">
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-lg btn-success m-t-1" ng-click="$ctrl.start()">Start!</button>
+    </fieldset>
   </div>
 
-  <div ng-controller="RoleController as $ctrl" class="m-b-1" ng-show="$ctrl.data">
-    <h1>There are {{$ctrl.data.players}} players</h1>
+
+  <div class="m-b-1" ng-show="$ctrl.started">
+    <h1>{{$ctrl.numberOfPlayers}} players, seed {{$ctrl.seed}}</h1>
     <h2>I am...</h2>
-    <p ng-repeat="role in $ctrl.data.roles" ng-show="!$ctrl.selectedRole">
-      <button class="btn btn-primary btn-lg" ng-click="$ctrl.selectedRole = role">Player {{$index + 1}}</button>
+    <p ng-repeat="player in $ctrl.players" ng-show="!$ctrl.selectedPlayer">
+      <button class="btn btn-primary btn-lg" ng-click="$ctrl.selectedPlayer = player">Player {{$index + 1}}</button>
     </p>
-    <div ng-show="$ctrl.selectedRole" class="m-t-1">
-      <h1 class="p-a-2">{{$ctrl.selectedRole.role}}</h1>
-      <h2 ng-show="$ctrl.selectedRole.location" class="p-a-2">Location: {{$ctrl.selectedRole.location}}</h2>
+    <div ng-show="$ctrl.selectedPlayer" class="m-t-1">
+      <h1 class="p-t-2">Role: {{$ctrl.selectedPlayer.role}}</h1>
+      <h1 class="p-a-0 m-b-2" ng-show="$ctrl.selectedPlayer.location" class="p-a-2">Location: {{$ctrl.selectedPlayer.location}}</h1>
       <h3>List of potential locations:</h3>
       <ul>
         <li ng-repeat="location in $ctrl.locations">{{location}}</li>
@@ -79,6 +97,7 @@
 <!-- build:js scripts/main.js -->
 <script src="scripts/_app.js"></script>
 <script src="scripts/controllers/role_controller.js"></script>
+<script src="scripts/rng.js"></script>
 <!-- endbuild -->
 
 </body>

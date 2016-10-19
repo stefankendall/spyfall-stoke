@@ -2,139 +2,215 @@
   {
     "location": "Airplane",
     "roles": [
-      "attendant"
+      "attendant",
+      "passenger",
+      "pilot",
+      "air crew",
+      "air marshall"
     ]
   },
   {
     "location": "Amusement Park",
     "roles": [
-      "guest"
+      "guest",
+      "attendant",
+      "security",
+      "janitorial staff",
+      "picture taker"
     ]
   },
   {
     "location": "Bank",
     "roles": [
-      "teller"
+      "teller",
+      "visitor",
+      "manager",
+      "security"
     ]
   },
   {
     "location": "Beach",
     "roles": [
-      "beachgoer"
+      "beachgoer",
+      "ice cream salesman",
+      "surfer",
+      "dude with boom box",
+      "lifeguard"
     ]
   },
   {
     "location": "Carnival",
     "roles": [
-      "guest"
+      "guest",
+      "clown",
+      "acrobat",
+      "ticket attendant",
+      "lion tamer"
     ]
   },
   {
     "location": "Casino",
     "roles": [
-      "gambler"
+      "gambler",
+      "security",
+      "dealer",
+      "host/hostess",
+      "card shark"
     ]
   },
   {
     "location": "Corporate Party",
     "roles": [
-      "director of product management"
+      "director of product management",
+      "assistant to the manager",
+      "head of sales",
+      "CTO",
+      "CFO"
     ]
   },
   {
     "location": "Crusader Army",
     "roles": [
-      "soldier"
+      "soldier",
+      "general",
+      "prisoner of war",
+      "cook"
     ]
   },
   {
     "location": "Day Spa",
     "roles": [
-      "guest"
+      "guest",
+      "masseuse",
+      "check-in person",
+      "janitor"
     ]
   },
   {
     "location": "Embassy",
     "roles": [
-      "ambassador"
+      "ambassador",
+      "visitor",
+      "security"
     ]
   },
   {
     "location": "Hospital",
     "roles": [
-      "nurse"
+      "nurse",
+      "doctor",
+      "patient",
+      "visitor"
     ]
   },
   {
     "location": "Hotel",
     "roles": [
-      "guest"
+      "guest",
+      "hotelier",
+      "cleaning staff",
+      "bartender"
     ]
   },
   {
     "location": "Mechanic (Car)",
     "roles": [
-      "visitor"
+      "customer",
+      "mechanic"
     ]
   },
   {
     "location": "Military Base",
     "roles": [
-      "soldier"
+      "soldier",
+      "lieutenant",
+      "general",
+      "latrines cleaner",
+      "private"
     ]
   },
   {
     "location": "Movie Theater",
     "roles": [
-      "ticket attendant"
+      "ticket attendant",
+      "movie goer",
+      "janitor",
+      "popcorn upseller"
     ]
   },
   {
     "location": "Movie Production Studio",
     "roles": [
-      "camera person"
+      "camera person",
+      "actor",
+      "stunt double",
+      "stand-in",
+      "visitor"
     ]
   },
   {
     "location": "Night Club",
     "roles": [
-      "visitor"
+      "visitor",
+      "bartender",
+      "security",
+      "bottle service provider"
     ]
   },
   {
     "location": "Ocean Liner",
     "roles": [
-      "visitor"
+      "vacationer",
+      "ship captain",
+      "bartender",
+      "janitor",
+      "vacationer"
     ]
   },
   {
     "location": "Passenger Train",
     "roles": [
-      "commuter"
+      "commuter",
+      "commuter",
+      "commuter",
+      "conductor",
+      "train worker"
     ]
   },
   {
     "location": "Pirate Ship",
     "roles": [
-      "pirate"
+      "pirate",
+      "stowaway",
+      "captain"
     ]
   },
   {
     "location": "Police Station,",
     "roles": [
-      "cop"
+      "cop",
+      "chief",
+      "prisoner",
+      "visitor",
+      "craigslist trader"
     ]
   },
   {
     "location": "Restaurant",
     "roles": [
-      "guest"
+      "guest",
+      "server",
+      "cook",
+      "head chef"
     ]
   },
   {
     "location": "School",
     "roles": [
-      "student"
+      "student",
+      "teacher",
+      "principal",
+      "parent"
     ]
   },
   {
@@ -146,25 +222,32 @@
   {
     "location": "Submarine",
     "roles": [
-      "crew"
+      "crew",
+      "researcher"
     ]
   },
   {
     "location": "Supermarket",
     "roles": [
-      "visitor"
+      "visitor",
+      "checkout person",
+      "shelf stocker"
     ]
   },
   {
     "location": "University",
     "roles": [
       "professor",
-      "student"
+      "student",
+      "visitor",
+      "guest lecturer"
     ]
   },
   {
     "location": "Zoo",
     "roles": [
+      "visitor",
+      "visitor",
       "visitor",
       "zookeeper"
     ]
