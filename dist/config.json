@@ -1,0 +1,53 @@
+{
+  "players": 12,
+  "roles": [
+    {
+      "location": "Submarine",
+      "role": "marine"
+    },
+    {
+      "location": "Submarine",
+      "role": "marine"
+    },
+    {
+      "location": "Submarine",
+      "role": "marine"
+    },
+    {
+      "location": "Submarine",
+      "role": "marine"
+    },
+    {
+      "location": "Submarine",
+      "role": "marine"
+    },
+    {
+      "location": "Submarine",
+      "role": "marine"
+    },
+    {
+      "location": "Submarine",
+      "role": "marine"
+    },
+    {
+      "location": "Submarine",
+      "role": "marine"
+    },
+    {
+      "location": "Submarine",
+      "role": "marine"
+    },
+    {
+      "location": "Submarine",
+      "role": "marine"
+    },
+    {
+      "location": "Submarine",
+      "role": "marine"
+    },
+    {
+      "location": null,
+      "role": "Spy"
+    }
+  ]
+}
