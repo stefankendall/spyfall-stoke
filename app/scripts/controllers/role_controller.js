@@ -16,7 +16,7 @@ angular.module('app').controller('RoleController', [
       var players = [];
       for (var i = 0; i < me.numberOfPlayers; i++) {
         if (i === me.spyPlayerIndex) {
-          players.push({role: "Spy", location: null});
+          players.push({role: 'Spy', location: null});
         }
         else {
           var role = me.scenario.roles[(i + me.playerRoleOffset) % me.scenario.roles.length];
