@@ -35,13 +35,16 @@
         </div>
         <button type="button" class="ui button primary" ng-click="$ctrl.start()">Start!</button>
       </form>
-      <p ng-show="$ctrl.started" >{{$ctrl.numberOfPlayers}} players, seed {{$ctrl.seed}}</p>
+      <p ng-show="$ctrl.started">{{$ctrl.numberOfPlayers}} players, seed {{$ctrl.seed}}</p>
     </div>
     <div ng-show="$ctrl.started" class="ui vertical segment">
-      <p ng-repeat="player in $ctrl.players" ng-show="!$ctrl.selectedPlayer">
-        <button type="button" class="ui primary button" ng-click="$ctrl.selectedPlayer = player; $ctrl.resetScroll()">Player {{$index + 1}}
-        </button>
-      </p>
+      <div class="ui stackable five column grid">
+        <div class="column" ng-show="!$ctrl.selectedPlayer" ng-repeat="player in $ctrl.players">
+          <button type="button" class="ui primary fluid button"
+                  ng-click="$ctrl.selectedPlayer = player; $ctrl.resetScroll()">Player {{$index + 1}}
+          </button>
+        </div>
+      </div>
       <div ng-show="$ctrl.selectedPlayer">
         <div class="ui info message">
           <h2 class="ui header">Role: {{$ctrl.selectedPlayer.role}}
