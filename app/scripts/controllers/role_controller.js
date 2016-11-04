@@ -43,5 +43,9 @@ angular.module('app').controller('RoleController', [
       }
       me.players = buildPlayers();
     };
+
+    this.resetScroll = function () {
+      window.scrollTo(0, 0);
+    };
   }
 ]);
