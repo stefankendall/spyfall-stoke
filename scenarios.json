@@ -1,0 +1,255 @@
+[
+  {
+    "location": "Airplane",
+    "roles": [
+      "attendant",
+      "passenger",
+      "pilot",
+      "air crew",
+      "air marshall"
+    ]
+  },
+  {
+    "location": "Amusement Park",
+    "roles": [
+      "guest",
+      "attendant",
+      "security",
+      "janitorial staff",
+      "picture taker"
+    ]
+  },
+  {
+    "location": "Bank",
+    "roles": [
+      "teller",
+      "visitor",
+      "manager",
+      "security"
+    ]
+  },
+  {
+    "location": "Beach",
+    "roles": [
+      "beachgoer",
+      "ice cream salesman",
+      "surfer",
+      "dude with boom box",
+      "lifeguard"
+    ]
+  },
+  {
+    "location": "Carnival",
+    "roles": [
+      "guest",
+      "clown",
+      "acrobat",
+      "ticket attendant",
+      "lion tamer"
+    ]
+  },
+  {
+    "location": "Casino",
+    "roles": [
+      "gambler",
+      "security",
+      "dealer",
+      "host/hostess",
+      "card shark"
+    ]
+  },
+  {
+    "location": "Corporate Party",
+    "roles": [
+      "director of product management",
+      "assistant to the manager",
+      "head of sales",
+      "CTO",
+      "CFO"
+    ]
+  },
+  {
+    "location": "Crusader Army",
+    "roles": [
+      "soldier",
+      "general",
+      "prisoner of war",
+      "cook"
+    ]
+  },
+  {
+    "location": "Day Spa",
+    "roles": [
+      "guest",
+      "masseuse",
+      "check-in person",
+      "janitor"
+    ]
+  },
+  {
+    "location": "Embassy",
+    "roles": [
+      "ambassador",
+      "visitor",
+      "security"
+    ]
+  },
+  {
+    "location": "Hospital",
+    "roles": [
+      "nurse",
+      "doctor",
+      "patient",
+      "visitor"
+    ]
+  },
+  {
+    "location": "Hotel",
+    "roles": [
+      "guest",
+      "hotelier",
+      "cleaning staff",
+      "bartender"
+    ]
+  },
+  {
+    "location": "Mechanic (Car)",
+    "roles": [
+      "customer",
+      "mechanic"
+    ]
+  },
+  {
+    "location": "Military Base",
+    "roles": [
+      "soldier",
+      "lieutenant",
+      "general",
+      "latrines cleaner",
+      "private"
+    ]
+  },
+  {
+    "location": "Movie Theater",
+    "roles": [
+      "ticket attendant",
+      "movie goer",
+      "janitor",
+      "popcorn upseller"
+    ]
+  },
+  {
+    "location": "Movie Production Studio",
+    "roles": [
+      "camera person",
+      "actor",
+      "stunt double",
+      "stand-in",
+      "visitor"
+    ]
+  },
+  {
+    "location": "Night Club",
+    "roles": [
+      "visitor",
+      "bartender",
+      "security",
+      "bottle service provider"
+    ]
+  },
+  {
+    "location": "Ocean Liner",
+    "roles": [
+      "vacationer",
+      "ship captain",
+      "bartender",
+      "janitor",
+      "vacationer"
+    ]
+  },
+  {
+    "location": "Passenger Train",
+    "roles": [
+      "commuter",
+      "commuter",
+      "commuter",
+      "conductor",
+      "train worker"
+    ]
+  },
+  {
+    "location": "Pirate Ship",
+    "roles": [
+      "pirate",
+      "stowaway",
+      "captain"
+    ]
+  },
+  {
+    "location": "Police Station,",
+    "roles": [
+      "cop",
+      "chief",
+      "prisoner",
+      "visitor",
+      "craigslist trader"
+    ]
+  },
+  {
+    "location": "Restaurant",
+    "roles": [
+      "guest",
+      "server",
+      "cook",
+      "head chef"
+    ]
+  },
+  {
+    "location": "School",
+    "roles": [
+      "student",
+      "teacher",
+      "principal",
+      "parent"
+    ]
+  },
+  {
+    "location": "Space Station",
+    "roles": [
+      "astronaut"
+    ]
+  },
+  {
+    "location": "Submarine",
+    "roles": [
+      "crew",
+      "researcher"
+    ]
+  },
+  {
+    "location": "Supermarket",
+    "roles": [
+      "visitor",
+      "checkout person",
+      "shelf stocker"
+    ]
+  },
+  {
+    "location": "University",
+    "roles": [
+      "professor",
+      "student",
+      "visitor",
+      "guest lecturer"
+    ]
+  },
+  {
+    "location": "Zoo",
+    "roles": [
+      "visitor",
+      "visitor",
+      "visitor",
+      "zookeeper"
+    ]
+  }
+]
