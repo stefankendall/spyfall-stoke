@@ -1,255 +1,180 @@
 [
   {
-    "location": "Airplane",
+    "location": "Race Track",
     "roles": [
-      "attendant",
-      "passenger",
-      "pilot",
-      "air crew",
-      "air marshall"
+      "Visitor",
+      "Visitor",
+      "Visitor",
+      "Racer",
+      "Pit Crew",
+      "Announcer"
     ]
   },
   {
-    "location": "Amusement Park",
+    "location": "Vineyard",
     "roles": [
-      "guest",
-      "attendant",
-      "security",
-      "janitorial staff",
-      "picture taker"
+      "Visitor",
+      "Visitor",
+      "Somelier",
+      "Wine Brewer",
+      "Tour Guide"
     ]
   },
   {
-    "location": "Bank",
+    "location": "Library",
     "roles": [
-      "teller",
-      "visitor",
-      "manager",
-      "security"
+      "Visitor",
+      "Visitor",
+      "Librarian",
+      "Guest Reader"
     ]
   },
   {
-    "location": "Beach",
+    "location": "Retirement Home",
     "roles": [
-      "beachgoer",
-      "ice cream salesman",
-      "surfer",
-      "dude with boom box",
-      "lifeguard"
+      "Visitor",
+      "Old Person",
+      "Old Person",
+      "Angel of Death",
+      "Nurse",
+      "Janitor"
     ]
   },
   {
-    "location": "Carnival",
+    "location": "Construction Site",
     "roles": [
-      "guest",
-      "clown",
-      "acrobat",
-      "ticket attendant",
-      "lion tamer"
+      "Bystander",
+      "Worker",
+      "Foreman",
+      "Bystander",
+      "Bystander"
     ]
   },
   {
-    "location": "Casino",
+    "location": "Candy Factory",
     "roles": [
-      "gambler",
-      "security",
-      "dealer",
-      "host/hostess",
-      "card shark"
+      "Visitor",
+      "Candy Maker",
+      "Willy Wonka",
+      "Oompa Loompa",
+      "Visitor"
     ]
   },
   {
-    "location": "Corporate Party",
+    "location": "Coal Mine",
     "roles": [
-      "director of product management",
-      "assistant to the manager",
-      "head of sales",
-      "CTO",
-      "CFO"
+      "Miner",
+      "Foreman",
+      "Machinist"
     ]
   },
   {
-    "location": "Crusader Army",
+    "location": "Rock Concert",
     "roles": [
-      "soldier",
-      "general",
-      "prisoner of war",
-      "cook"
+      "Rocker",
+      "Visitor",
+      "Visitor",
+      "Sound Crew",
+      "Security Worker",
+      "Visitor"
     ]
   },
   {
-    "location": "Day Spa",
+    "location": "Wedding",
     "roles": [
-      "guest",
-      "masseuse",
-      "check-in person",
-      "janitor"
+      "Visitor",
+      "Visitor",
+      "Bride",
+      "Groom",
+      "Priest",
+      "Bartender"
     ]
   },
   {
-    "location": "Embassy",
+    "location": "Harbor Docks",
     "roles": [
-      "ambassador",
-      "visitor",
-      "security"
+      "Visitor",
+      "Dock Worker",
+      "Merchant",
+      "Thug",
+      "Pirate"
     ]
   },
   {
-    "location": "Hospital",
+    "location": "Art Museum",
     "roles": [
-      "nurse",
-      "doctor",
-      "patient",
-      "visitor"
+      "Visitor",
+      "Curator",
+      "Visitor",
+      "Tour Guide",
+      "Visitor"
     ]
   },
   {
-    "location": "Hotel",
+    "location": "NFL Stadium",
     "roles": [
-      "guest",
-      "hotelier",
-      "cleaning staff",
-      "bartender"
+      "Visitor",
+      "Visitor",
+      "Visitor",
+      "Athlete",
+      "Food Seller",
+      "Bartender"
     ]
   },
   {
-    "location": "Mechanic (Car)",
+    "location": "Cat Show",
     "roles": [
-      "customer",
-      "mechanic"
+      "Visitor",
+      "Cat Handler"
     ]
   },
   {
-    "location": "Military Base",
+    "location": "Jail",
     "roles": [
-      "soldier",
-      "lieutenant",
-      "general",
-      "latrines cleaner",
-      "private"
+      "Prisoner",
+      "Guard"
     ]
   },
   {
-    "location": "Movie Theater",
+    "location": "The U.N.",
     "roles": [
-      "ticket attendant",
-      "movie goer",
-      "janitor",
-      "popcorn upseller"
+      "Ambassador",
+      "Intern"
     ]
   },
   {
-    "location": "Movie Production Studio",
+    "location": "Subway",
     "roles": [
-      "camera person",
-      "actor",
-      "stunt double",
-      "stand-in",
-      "visitor"
+      "Rider",
+      "Worker"
     ]
   },
   {
-    "location": "Night Club",
+    "location": "Cemetary",
     "roles": [
-      "visitor",
-      "bartender",
-      "security",
-      "bottle service provider"
+      "Visitor",
+      "Attendant"
     ]
   },
   {
-    "location": "Ocean Liner",
+    "location": "Jazz Club",
     "roles": [
-      "vacationer",
-      "ship captain",
-      "bartender",
-      "janitor",
-      "vacationer"
+      "Visitor",
+      "Singer"
     ]
   },
   {
-    "location": "Passenger Train",
+    "location": "Gas Station",
     "roles": [
-      "commuter",
-      "commuter",
-      "commuter",
-      "conductor",
-      "train worker"
+      "Visitor",
+      "Worker"
     ]
   },
   {
-    "location": "Pirate Ship",
+    "location": "Sightseeing Bus",
     "roles": [
-      "pirate",
-      "stowaway",
-      "captain"
-    ]
-  },
-  {
-    "location": "Police Station,",
-    "roles": [
-      "cop",
-      "chief",
-      "prisoner",
-      "visitor",
-      "craigslist trader"
-    ]
-  },
-  {
-    "location": "Restaurant",
-    "roles": [
-      "guest",
-      "server",
-      "cook",
-      "head chef"
-    ]
-  },
-  {
-    "location": "School",
-    "roles": [
-      "student",
-      "teacher",
-      "principal",
-      "parent"
-    ]
-  },
-  {
-    "location": "Space Station",
-    "roles": [
-      "astronaut"
-    ]
-  },
-  {
-    "location": "Submarine",
-    "roles": [
-      "crew",
-      "researcher"
-    ]
-  },
-  {
-    "location": "Supermarket",
-    "roles": [
-      "visitor",
-      "checkout person",
-      "shelf stocker"
-    ]
-  },
-  {
-    "location": "University",
-    "roles": [
-      "professor",
-      "student",
-      "visitor",
-      "guest lecturer"
-    ]
-  },
-  {
-    "location": "Zoo",
-    "roles": [
-      "visitor",
-      "visitor",
-      "visitor",
-      "zookeeper"
+      "Visitor",
+      "Worker"
     ]
   }
 ]
